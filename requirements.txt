@@ -1,0 +1,6 @@
+# Install with:  pip install -r requirements.txt
+# For a GPU, install the torch build that matches your CUDA version instead:
+# https://pytorch.org/get-started/locally/
+numpy>=1.24
+torch>=2.0
+matplotlib>=3.7
