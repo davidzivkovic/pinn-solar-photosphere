@@ -1,0 +1,17 @@
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+
+# Run outputs: the figures and the json files are small and worth keeping,
+# the weights are not.
+runs/**/*.pt
+
+# The trained EOS surrogate is small, so it IS committed (data/eos_net.pt).
+# Anything else that lands in data/ is not.
+data/*.npz
+
+# OS
+.DS_Store
