@@ -80,9 +80,9 @@ The four physics setups from the thesis are just `PHYS_TERMS` in
 `config.py`: `{}` (no physics), `{'divB': 1.0}`, `{'stat_cont': 0.3}`,
 `{'divB': 0.7, 'stat_cont': 0.3}`, `{'momentum': 0.1}`.
 
-A full run (400 epochs, 150,000 steps total) needs a GPU — on a CPU each step
-is a couple of seconds, so the whole thing is days, not minutes. Lower
-`TOTAL_STEPS_TARGET` for a quick local check that it runs.
+A full run (400 epochs, 150,000 steps total) needs a GPU, because on a CPU each step
+is a couple of seconds, so the whole run is in days. Lower
+`TOTAL_STEPS_TARGET` for a quick local check.
 
 ## Data
 
